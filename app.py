@@ -59,12 +59,12 @@ education_var = st.selectbox("Education level",
 parent_var = st.number_input("Parent? (0=no, 1=yes)", 0, 1)
 married_var = st.number_input("Married (0=no, 1=yes)", 0, 1)
 female_var = st.number_input("Female? (0=no, 1=yes)", 0, 1)
-age_var = st.slider(label="Enter a number",
+age_var = st.slider(label="Enter your age",
           min_value=1,
           max_value=99,
           value=50)
 
-st.write("**Convert Selection to Numeric Value**")
+
 #convert education selection to number
 if education_var == "Less than high school":
     education_var = 1
